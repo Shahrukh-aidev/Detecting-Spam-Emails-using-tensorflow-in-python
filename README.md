@@ -295,23 +295,53 @@ This architecture can easily be adapted for:
 
 ---
 
-# 🖼 Screenshots
+# 🖼 Project Screenshots
 
-## Training Process
+## Dataset Preview
 
-```
-screenshots/training.png
-```
+![Dataset Preview](screenshots/dataset_preview.png)
 
 ---
 
-## Model Prediction
+## Original Dataset Distribution
 
-```
-screenshots/prediction.png
-```
+![Dataset Distribution](screenshots/dataset_distribution_before_balancing.png)
 
 ---
+
+## Balanced Dataset Distribution
+
+![Balanced Dataset](screenshots/dataset_distribution_after_balancing.png)
+
+---
+
+## Word Cloud Visualization
+
+![WordCloud](screenshots/spam_vs_ham_wordcloud.png)
+
+---
+
+## Exploratory Data Analysis
+
+![EDA](screenshots/exploratory_data_analysis.png)
+
+---
+
+## Model Architecture
+
+![Model Architecture](screenshots/model_architecture_summary.png)
+
+---
+
+## Training Progress
+
+![Training Logs](screenshots/training_progress_epochs.png)
+
+---
+
+## Model Accuracy
+
+![Accuracy](screenshots/training_validation_accuracy.png)
 
 ## Accuracy Graph
 
