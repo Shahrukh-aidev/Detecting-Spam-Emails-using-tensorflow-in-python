@@ -295,70 +295,93 @@ This architecture can easily be adapted for:
 
 ---
 
-# 🖼 Project Screenshots
+---
 
-## Dataset Preview
+# 🖼️ Project Screenshots
+
+The following screenshots illustrate different stages of the machine learning workflow, from data exploration and preprocessing to model training and evaluation.
+
+---
+
+## 📋 Dataset Preview
+
+A snapshot of the dataset showing the email text along with their corresponding labels before preprocessing.
 
 ![Dataset Preview](screenshots/dataset_preview.png)
 
 ---
 
-## Original Dataset Distribution
+## 📊 Original Dataset Distribution
 
-![Dataset Distribution](screenshots/dataset_distribution_before_balancing.png)
+Visualization of the original dataset showing the imbalance between legitimate (Ham) and spam emails before preprocessing.
 
----
-
-## Balanced Dataset Distribution
-
-![Balanced Dataset](screenshots/dataset_distribution_after_balancing.png)
+![Original Dataset Distribution](screenshots/dataset_distribution_before_balancing.png)
 
 ---
 
-## Word Cloud Visualization
+## ⚖️ Balanced Dataset Distribution
 
-![WordCloud](screenshots/spam_vs_ham_wordcloud.png)
+After balancing the dataset, both classes contain an equal number of samples, helping reduce model bias during training.
 
----
-
-## Exploratory Data Analysis
-
-![EDA](screenshots/exploratory_data_analysis.png)
+![Balanced Dataset Distribution](screenshots/dataset_distribution_after_balancing.png)
 
 ---
 
-## Model Architecture
+## ☁️ Spam vs Ham Word Cloud
+
+Word cloud visualization highlighting the most frequently occurring words in legitimate and spam emails.
+
+![Spam vs Ham Word Cloud](screenshots/spam_vs_ham_wordcloud.png)
+
+---
+
+## 📈 Exploratory Data Analysis (EDA)
+
+Exploratory analysis performed on the dataset to better understand data distribution, trends, and feature characteristics before training.
+
+![Exploratory Data Analysis](screenshots/exploratory_data_analysis.png)
+
+---
+
+## 🧠 Model Architecture
+
+Summary of the TensorFlow neural network architecture used for spam email classification.
 
 ![Model Architecture](screenshots/model_architecture_summary.png)
 
 ---
 
-## Training Progress
+## 🚀 Model Training Progress
 
-![Training Logs](screenshots/training_progress_epochs.png)
+Training logs captured during multiple epochs, displaying improvements in loss and accuracy throughout the learning process.
 
----
-
-## Model Accuracy
-
-![Accuracy](screenshots/training_validation_accuracy.png)
-
-## Accuracy Graph
-
-```
-screenshots/accuracy.png
-```
+![Training Progress](screenshots/training_progress_epochs.png)
 
 ---
 
-## Loss Graph
+## 📉 Model Accuracy
 
-```
-screenshots/loss.png
-```
+Comparison of training and validation accuracy over multiple epochs to evaluate learning performance and detect overfitting.
 
-> Replace the paths above with the actual screenshot filenames in your repository.
+![Model Accuracy](screenshots/training_validation_accuracy.png)
 
+---
+
+## 📈 Accuracy Curve
+
+Graph illustrating how the model's prediction accuracy improves during the training process.
+
+![Accuracy Graph](screenshots/accuracy.png)
+
+---
+
+## 📉 Loss Curve
+
+Training and validation loss curves used to monitor optimization performance and convergence throughout training.
+
+![Loss Graph](screenshots/loss.png)
+
+---
 ---
 
 # 📁 Project Structure
